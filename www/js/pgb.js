@@ -23,9 +23,9 @@ function deviceInfo() {
 }
 
 function personalInfo() {
-	info = 'Dominik Malcharczyk'+ '\n'+
+	newInfo = 'Dominik Malcharczyk'+ '\n'+
 			'nr Albumu: 200532';
 		
-	navigator.notification.alert(info);
+	navigator.notification.alert(newInfo);
 
 }
