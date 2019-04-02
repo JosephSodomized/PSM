@@ -6,6 +6,7 @@ function onDeviceReady() {
 	navigator.notification.beep(1);
 }
 
+
 function deviceInfo() {
 
 	info =  'Hi, I am your smartphone :-)' + '\n' +
@@ -19,4 +20,12 @@ function deviceInfo() {
 
 	navigator.notification.alert(info);
 	
+}
+
+function personalInfo() {
+	info = 'Dominik Malcharczyk'+ '\n'+
+			'nr Albumu: 200532';
+		
+	navigator.notification.alert(info);
+
 }
